@@ -1,6 +1,7 @@
 output.json/*
 .idea/*
 *.pdf
+*/output
 
 # ======================
 # Python bytecode / cache
