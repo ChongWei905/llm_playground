@@ -1,0 +1,110 @@
+output.json/*
+.idea/*
+*.pdf
+
+# ======================
+# Python bytecode / cache
+# ======================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ======================
+# Virtual environments
+# ======================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ======================
+# Packaging / build
+# ======================
+build/
+dist/
+develop-eggs/
+eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ======================
+# PyInstaller
+# ======================
+*.manifest
+*.spec
+
+# ======================
+# Unit test / coverage
+# ======================
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# ======================
+# Jupyter / IPython
+# ======================
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# ======================
+# Logs / runtime files
+# ======================
+*.log
+logs/
+*.out
+*.err
+*.pid
+
+# ======================
+# IDE / Editor
+# ======================
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# ======================
+# OS generated files
+# ======================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+# ======================
+# Type checker / LSP
+# ======================
+.mypy_cache/
+.pyre/
+.pytype/
+
+# ======================
+# dotenv / secrets
+# ======================
+.env.*
+!.env.example
+
+# ======================
+# Optional: local config
+# ======================
+config.local.py
+settings.local.py
