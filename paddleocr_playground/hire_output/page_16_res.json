@@ -1,0 +1,887 @@
+{
+    "input_path": "output/page_16.png",
+    "page_index": null,
+    "page_count": null,
+    "width": 1654,
+    "height": 2339,
+    "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_seal_recognition": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": true,
+        "use_chart_recognition": false,
+        "use_region_detection": true,
+        "format_block_content": false,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": "18.6本协议若与双方以前的聘用协议有冲突，以本协议规定为准。",
+            "block_bbox": [
+                109,
+                63,
+                930,
+                90
+            ],
+            "block_id": 0,
+            "block_order": 1
+        },
+        {
+            "block_label": "text",
+            "block_content": "Ifthisremetoiwinlmplometaemntrd betwetewarts,tismenthall prevail.\n",
+            "block_bbox": [
+                107,
+                119,
+                1588,
+                201
+            ],
+            "block_id": 1,
+            "block_order": 2
+        },
+        {
+            "block_label": "text",
+            "block_content": "18.7本协议以中文和英文写成，两种版本具有同等法律效力。如中英文版本不一致的，以中文版本为准。",
+            "block_bbox": [
+                109,
+                239,
+                1386,
+                267
+            ],
+            "block_id": 2,
+            "block_order": 3
+        },
+        {
+            "block_label": "text",
+            "block_content": "This Agreement is being executed in both Chinese and English languages, and both language versions shall be equally valid and binding. In the event of any discrepancy between these two versions, the Chinese version shall govern.",
+            "block_bbox": [
+                105,
+                305,
+                1583,
+                387
+            ],
+            "block_id": 3,
+            "block_order": 4
+        },
+        {
+            "block_label": "text",
+            "block_content": "18.8双方按照符合《电子签名法》规定的方式进行电子签署，经电子签署的电子本文视为原件，本协议自规定的聘用起始日起生效。\n",
+            "block_bbox": [
+                104,
+                423,
+                1584,
+                502
+            ],
+            "block_id": 4,
+            "block_order": 5
+        },
+        {
+            "block_label": "text",
+            "block_content": "This agreement is electronically signed by Parties in accordance with \"Electronical Signature Law\" and shall come into effective as of the commence date of employment period as provided in Clause 1.1. The E-Signed electronic document shall be the original of this Agreement.\n",
+            "block_bbox": [
+                100,
+                530,
+                1587,
+                668
+            ],
+            "block_id": 5,
+            "block_order": 6
+        },
+        {
+            "block_label": "text",
+            "block_content": "18.9一方以可靠电子签名签署的文件具备法律效力，此类文件包括但不限于各类承诺函、保密协议等。",
+            "block_bbox": [
+                99,
+                703,
+                1363,
+                731
+            ],
+            "block_id": 6,
+            "block_order": 7
+        },
+        {
+            "block_label": "text",
+            "block_content": "Those e-signed documents byrliablelectroni sigature shall bebinding uponparties,which,amongothers,icud commitment letters, NDA, e-signed documents.\n",
+            "block_bbox": [
+                94,
+                770,
+                1589,
+                854
+            ],
+            "block_id": 7,
+            "block_order": 8
+        }
+    ],
+    "doc_preprocessor_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_orientation_classify": true,
+            "use_doc_unwarping": true
+        },
+        "angle": 0
+    },
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.9632649421691895,
+                "coordinate": [
+                    100.50885009765625,
+                    530.2086181640625,
+                    1587.15234375,
+                    668.4310302734375
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.9532015323638916,
+                "coordinate": [
+                    107.90924072265625,
+                    119.38555908203125,
+                    1588.148681640625,
+                    201.62286376953125
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.9498152732849121,
+                "coordinate": [
+                    105.726318359375,
+                    305.7737121582031,
+                    1583.9327392578125,
+                    387.4346618652344
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.9442933201789856,
+                "coordinate": [
+                    94.3223876953125,
+                    770.1219482421875,
+                    1589.7427978515625,
+                    854.514892578125
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.9414476156234741,
+                "coordinate": [
+                    104.385986328125,
+                    423.095947265625,
+                    1584.4462890625,
+                    502.87359619140625
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.875888466835022,
+                "coordinate": [
+                    99.36370849609375,
+                    703.5401000976562,
+                    1363.103271484375,
+                    731.1387329101562
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.8510634899139404,
+                "coordinate": [
+                    109.20294189453125,
+                    239.22042846679688,
+                    1386.841552734375,
+                    267.1236572265625
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.7452600598335266,
+                "coordinate": [
+                    109.20114135742188,
+                    63.508270263671875,
+                    930.6373291015625,
+                    90.63301086425781
+                ]
+            }
+        ]
+    },
+    "overall_ocr_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_textline_orientation": true
+        },
+        "dt_polys": [
+            [
+                [
+                    111,
+                    62
+                ],
+                [
+                    929,
+                    64
+                ],
+                [
+                    929,
+                    95
+                ],
+                [
+                    111,
+                    93
+                ]
+            ],
+            [
+                [
+                    108,
+                    115
+                ],
+                [
+                    1593,
+                    113
+                ],
+                [
+                    1593,
+                    154
+                ],
+                [
+                    108,
+                    156
+                ]
+            ],
+            [
+                [
+                    110,
+                    173
+                ],
+                [
+                    213,
+                    173
+                ],
+                [
+                    213,
+                    208
+                ],
+                [
+                    110,
+                    208
+                ]
+            ],
+            [
+                [
+                    112,
+                    238
+                ],
+                [
+                    1386,
+                    238
+                ],
+                [
+                    1386,
+                    271
+                ],
+                [
+                    112,
+                    271
+                ]
+            ],
+            [
+                [
+                    110,
+                    305
+                ],
+                [
+                    1583,
+                    305
+                ],
+                [
+                    1583,
+                    338
+                ],
+                [
+                    110,
+                    338
+                ]
+            ],
+            [
+                [
+                    109,
+                    359
+                ],
+                [
+                    1507,
+                    359
+                ],
+                [
+                    1507,
+                    393
+                ],
+                [
+                    109,
+                    393
+                ]
+            ],
+            [
+                [
+                    108,
+                    423
+                ],
+                [
+                    1583,
+                    423
+                ],
+                [
+                    1583,
+                    456
+                ],
+                [
+                    108,
+                    456
+                ]
+            ],
+            [
+                [
+                    106,
+                    473
+                ],
+                [
+                    268,
+                    477
+                ],
+                [
+                    267,
+                    511
+                ],
+                [
+                    105,
+                    507
+                ]
+            ],
+            [
+                [
+                    104,
+                    529
+                ],
+                [
+                    1588,
+                    527
+                ],
+                [
+                    1588,
+                    563
+                ],
+                [
+                    104,
+                    565
+                ]
+            ],
+            [
+                [
+                    104,
+                    582
+                ],
+                [
+                    1589,
+                    583
+                ],
+                [
+                    1589,
+                    617
+                ],
+                [
+                    104,
+                    616
+                ]
+            ],
+            [
+                [
+                    104,
+                    637
+                ],
+                [
+                    591,
+                    640
+                ],
+                [
+                    591,
+                    674
+                ],
+                [
+                    103,
+                    671
+                ]
+            ],
+            [
+                [
+                    101,
+                    701
+                ],
+                [
+                    1362,
+                    702
+                ],
+                [
+                    1362,
+                    736
+                ],
+                [
+                    101,
+                    735
+                ]
+            ],
+            [
+                [
+                    96,
+                    767
+                ],
+                [
+                    1595,
+                    765
+                ],
+                [
+                    1595,
+                    805
+                ],
+                [
+                    96,
+                    807
+                ]
+            ],
+            [
+                [
+                    97,
+                    825
+                ],
+                [
+                    698,
+                    825
+                ],
+                [
+                    698,
+                    858
+                ],
+                [
+                    97,
+                    858
+                ]
+            ]
+        ],
+        "text_det_params": {
+            "limit_side_len": 736,
+            "limit_type": "min",
+            "thresh": 0.3,
+            "max_side_limit": 4000,
+            "box_thresh": 0.6,
+            "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+            "18.6本协议若与双方以前的聘用协议有冲突，以本协议规定为准。",
+            "Ifthisremetoiwinlmplometaemntrd betwetewarts,tismenthall",
+            "prevail.",
+            "18.7本协议以中文和英文写成，两种版本具有同等法律效力。如中英文版本不一致的，以中文版本为准。",
+            "This Agreement is being executed in both Chinese and English languages, and both language versions shall be equally",
+            "valid and binding. In the event of any discrepancy between these two versions, the Chinese version shall govern.",
+            "18.8双方按照符合《电子签名法》规定的方式进行电子签署，经电子签署的电子本文视为原件，本协议自规定的聘用起",
+            "始日起生效。",
+            "This agreement is electronically signed by Parties in accordance with \"Electronical Signature Law\" and shall come into",
+            "effective as of the commence date of employment period as provided in Clause 1.1. The E-Signed electronic document",
+            "shall be the original of this Agreement.",
+            "18.9一方以可靠电子签名签署的文件具备法律效力，此类文件包括但不限于各类承诺函、保密协议等。",
+            "Those e-signed documents byrliablelectroni sigature shall bebinding uponparties,which,amongothers,icud",
+            "commitment letters, NDA, e-signed documents."
+        ],
+        "rec_scores": [
+            0.9884820580482483,
+            0.7076319456100464,
+            0.9978044033050537,
+            0.999582827091217,
+            0.9820861220359802,
+            0.9762352705001831,
+            0.9997142553329468,
+            0.9993438124656677,
+            0.9828606843948364,
+            0.972912073135376,
+            0.9498252868652344,
+            0.9993163347244263,
+            0.8264294862747192,
+            0.9723381400108337
+        ],
+        "rec_polys": [
+            [
+                [
+                    111,
+                    62
+                ],
+                [
+                    929,
+                    64
+                ],
+                [
+                    929,
+                    95
+                ],
+                [
+                    111,
+                    93
+                ]
+            ],
+            [
+                [
+                    108,
+                    115
+                ],
+                [
+                    1593,
+                    113
+                ],
+                [
+                    1593,
+                    154
+                ],
+                [
+                    108,
+                    156
+                ]
+            ],
+            [
+                [
+                    110,
+                    173
+                ],
+                [
+                    213,
+                    173
+                ],
+                [
+                    213,
+                    208
+                ],
+                [
+                    110,
+                    208
+                ]
+            ],
+            [
+                [
+                    112,
+                    238
+                ],
+                [
+                    1386,
+                    238
+                ],
+                [
+                    1386,
+                    271
+                ],
+                [
+                    112,
+                    271
+                ]
+            ],
+            [
+                [
+                    110,
+                    305
+                ],
+                [
+                    1583,
+                    305
+                ],
+                [
+                    1583,
+                    338
+                ],
+                [
+                    110,
+                    338
+                ]
+            ],
+            [
+                [
+                    109,
+                    359
+                ],
+                [
+                    1507,
+                    359
+                ],
+                [
+                    1507,
+                    393
+                ],
+                [
+                    109,
+                    393
+                ]
+            ],
+            [
+                [
+                    108,
+                    423
+                ],
+                [
+                    1583,
+                    423
+                ],
+                [
+                    1583,
+                    456
+                ],
+                [
+                    108,
+                    456
+                ]
+            ],
+            [
+                [
+                    106,
+                    473
+                ],
+                [
+                    268,
+                    477
+                ],
+                [
+                    267,
+                    511
+                ],
+                [
+                    105,
+                    507
+                ]
+            ],
+            [
+                [
+                    104,
+                    529
+                ],
+                [
+                    1588,
+                    527
+                ],
+                [
+                    1588,
+                    563
+                ],
+                [
+                    104,
+                    565
+                ]
+            ],
+            [
+                [
+                    104,
+                    582
+                ],
+                [
+                    1589,
+                    583
+                ],
+                [
+                    1589,
+                    617
+                ],
+                [
+                    104,
+                    616
+                ]
+            ],
+            [
+                [
+                    104,
+                    637
+                ],
+                [
+                    591,
+                    640
+                ],
+                [
+                    591,
+                    674
+                ],
+                [
+                    103,
+                    671
+                ]
+            ],
+            [
+                [
+                    101,
+                    701
+                ],
+                [
+                    1362,
+                    702
+                ],
+                [
+                    1362,
+                    736
+                ],
+                [
+                    101,
+                    735
+                ]
+            ],
+            [
+                [
+                    96,
+                    767
+                ],
+                [
+                    1595,
+                    765
+                ],
+                [
+                    1595,
+                    805
+                ],
+                [
+                    96,
+                    807
+                ]
+            ],
+            [
+                [
+                    97,
+                    825
+                ],
+                [
+                    698,
+                    825
+                ],
+                [
+                    698,
+                    858
+                ],
+                [
+                    97,
+                    858
+                ]
+            ]
+        ],
+        "rec_boxes": [
+            [
+                111,
+                62,
+                929,
+                95
+            ],
+            [
+                108,
+                113,
+                1593,
+                156
+            ],
+            [
+                110,
+                173,
+                213,
+                208
+            ],
+            [
+                112,
+                238,
+                1386,
+                271
+            ],
+            [
+                110,
+                305,
+                1583,
+                338
+            ],
+            [
+                109,
+                359,
+                1507,
+                393
+            ],
+            [
+                108,
+                423,
+                1583,
+                456
+            ],
+            [
+                105,
+                473,
+                268,
+                511
+            ],
+            [
+                104,
+                527,
+                1588,
+                565
+            ],
+            [
+                104,
+                582,
+                1589,
+                617
+            ],
+            [
+                103,
+                637,
+                591,
+                674
+            ],
+            [
+                101,
+                701,
+                1362,
+                736
+            ],
+            [
+                96,
+                765,
+                1595,
+                807
+            ],
+            [
+                97,
+                825,
+                698,
+                858
+            ]
+        ]
+    }
+}
